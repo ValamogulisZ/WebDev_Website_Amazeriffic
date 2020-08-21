@@ -1,0 +1,69 @@
+header, main, footer{
+  min-width: 855px;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer{
+  background: #f9e933;
+  height: 200px;
+}
+
+header{
+  background: white;
+  overflow: auto;
+  border-bottom: solid gray 1px;
+}
+header h1{
+  color: red;
+  float:left;
+  width: 570px;
+}
+header nav{
+  margin-right: -100px;
+  margin-top: 30px;
+  float: right;
+  width: 285px;
+}
+header nav a{
+  color: red;
+  text-decoration: none;
+}
+
+main{
+  background: white;
+}
+main img{
+  float: right;
+  margin-top: -210px;
+}
+
+header .container, main .container, footer .container{
+  max-width: 855px;
+  margin: auto;
+}
+
+footer h4{
+  padding-top: 40px;
+}
+footer .sitemap{
+  float: right;
+  display: block;
+  float: right;
+  margin-top: -200px;
+}
+footer .sitemap a{
+  color: red;
+  text-decoration: none;
+  padding-right: 100px;
+}
+.ul1{
+  float: left;
+}
+.ul2{
+  float: right;
+}

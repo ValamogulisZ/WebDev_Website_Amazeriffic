@@ -1,0 +1,118 @@
+.hide{
+  display: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.ddd{
+  background: #ddd;
+}
+
+header .container, main .container, footer .container{
+  max-width: 855px;
+  margin: auto;
+}
+
+header, main, footer{
+  min-width: 855px;
+}
+
+header{
+  background: white;
+  overflow: auto;
+  border-bottom: solid gray 1px;
+}
+header h1{
+  color: red;
+  width: 570px;
+}
+header nav{
+  margin-right: -100px;
+  margin-top: 30px;
+  width: 285px;
+}
+header nav a{
+  color: red;
+  text-decoration: none;
+}
+
+main{
+  margin-top: 20px;
+  background: white;
+  /* overflow: scroll; */
+}
+main .option{
+  height: 20px;
+  width: 70px;
+  text-align: center;
+  margin-top: -18px;
+  background: gray;
+  border-radius: 10px 10px 0px 0px;
+}
+#op1{
+  margin-left: 80px;
+  background-color: #ddd;
+}
+#op2{
+  margin-left: 10px;
+}
+#op3{
+  margin-left: 10px;
+}
+#op4{
+  margin-left: 10px;
+}
+main .container .content{
+  margin-top: 100px;
+  width: 80%;
+  background: #ddd;
+  margin-top: 100px;
+  border-radius: 25px;
+}
+main .container ul{
+  padding: 10px;
+  list-style: none;
+}
+main .container ul li{
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: white;
+  margin-top: 10px;
+}
+main .container #Add{
+  height: 80px;
+}
+main .container #Add input{
+  margin-top: 30px;
+  margin-left: -230px;
+  width: 400px;
+}
+main .container #Add button{
+  background-color: #eee;
+}
+
+footer{
+  margin-top: 80px;
+  background: #f9e933;
+  height: 200px;
+}
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .sitemap a{
+  color: red;
+  text-decoration: none;
+  padding-right: 100px;
+}
+.btul1{
+  float: left;
+}
+.btul2{
+  float: right;
+}
